@@ -1,3 +1,9 @@
+exodus (1.36.1) xenial; urgency=high
+
+  * Maintenance release.
+
+ -- Doug Barbieri <doug@garibaldi>  Fri, 13 Oct 2017 08:18:21 -0700
+
 exodus (1.36.0) xenial; urgency=high
 
   * In our latest update, Exodus welcomes Bitcoin Cash (BCH) and Ethereum
