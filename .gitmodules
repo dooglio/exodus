@@ -1,3 +1,9 @@
 [submodule "bin"]
 	path = bin
 	url = https://github.com/ExodusMovement/exodus-linux-installer.git
+[submodule "exodus_tools"]
+	path = contrib/exodus_tools
+	url = https://github.com/kklash/exodus_tools.git
+[submodule "contrib/exodus-linux-installer"]
+	path = contrib/exodus-linux-installer
+	url = git@github.com:dooglio/exodus-linux-installer.git
