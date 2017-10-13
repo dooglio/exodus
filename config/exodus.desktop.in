@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Exodus@EXODUS_CAPSUFFIX@ @EXODUS_VERSION@
+Icon=exodus@EXODUS_SUFFIX@.png
+Exec=/opt/exodus/Exodu@EXODUS_CAPSUFFIX@s
+StartupNotify=false
+StartupWMClass=Exodus@EXODUS_CAPSUFFIX@
+OnlyShowIn=Unity;
+X-UnityGenerated=true
