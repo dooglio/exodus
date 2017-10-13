@@ -1,3 +1,18 @@
+exodus (1.36.0) xenial; urgency=high
+
+  * In our latest update, Exodus welcomes Bitcoin Cash (BCH) and Ethereum
+    Classic (ETC) to our family of assets. Thanks to our extensive testing
+    community, both assets made it though our beta program and are now released
+    for official Exodus support!
+  * Bonus in this update: Big speed improvements when receiving
+    Ethereum, Ethereum Classic and all Ethereum (ERC20) tokens.
+  * In addition The Settings > Assets section has been rebuilt and upgraded.
+    There are now links to each projects Reddit, website and Twitter feeds along
+    with a short summary describing each asset Exodus supports. This is a great
+    1-stop way find out more about the latest assets supported by Exodus.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Thu, 12 Oct 2017 22:31:02 -0700
+
 exodus (1.35.5) xenial; urgency=high
 
   * Inital package release.
