@@ -3,10 +3,7 @@
 # Source debconf library.
 . /usr/share/debconf/confmodule
 
-if [ -e /usr/share/exodus/exodus-installer ]
-then
-	/usr/share/exodus/exodus-installer uninstall
-fi
+/usr/share/exodus/exodus-installer uninstall
 
 #DEBHELPER#
 

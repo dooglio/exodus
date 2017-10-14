@@ -1,8 +1,14 @@
+exodus (1.36.1-1) xenual; urgency=high
+
+  * Updated packager to verify the downloaded archive against SHA signatures.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Sat, 14 Oct 2017 16:20:08 -0700
+
 exodus (1.36.1) xenial; urgency=high
 
   * Maintenance release.
 
- -- Doug Barbieri <doug@garibaldi>  Fri, 13 Oct 2017 08:18:21 -0700
+ -- R. Douglas Barbieri <doug@dooglio.net>  Fri, 13 Oct 2017 08:18:21 -0700
 
 exodus (1.36.0) xenial; urgency=high
 
