@@ -1,4 +1,4 @@
-exodus (1.36.1-1) xenual; urgency=high
+exodus (1.36.1-1) xenial; urgency=high
 
   * Updated packager to verify the downloaded archive against SHA signatures.
 

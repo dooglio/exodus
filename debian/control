@@ -1,7 +1,7 @@
 Source: exodus
 Priority: extra
 Maintainer: R. Douglas Barbieri <doug@dooglio.net>
-Build-Depends: cmake, debhelper, dpkg-dev
+Build-Depends: cmake, debhelper
 Standards-Version: 3.9.4
 Section: libs
 Homepage: http://exodus.io
