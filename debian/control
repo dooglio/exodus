@@ -11,11 +11,11 @@ Vcs-Browser: https://github.com/exodusmovement
 Package: exodus
 Section: x11
 Architecture: amd64
-Depends: curl, perl, unzip, wget, ${misc:Depends}
+Depends: curl, coreutils, perl, unzip, wget, ${misc:Depends}
 Description: Exodus is the first desktop multi-asset wallet with ShapeShift built in.
  Live charts turn your diversified portfolio into a bottom line, a seamless, one click,
  ShapeShift experience, and multi-asset wallet gives you control over your keys
  beautiful live charts, and a personalized user experience.
- This package provides the Exodus UI client. 
+ This package provides the Exodus UI client.
 
 # vim: ts=4 sw=4 et
