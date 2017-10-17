@@ -1,3 +1,10 @@
+exodus (1.36.1-2) xenial; urgency=high
+
+  * Updated packager to reflect a superior method of archiving against SHA
+    signatures, using fingerprint instead of names.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Mon, 16 Oct 2017 19:39:23 -0700
+
 exodus (1.36.1-1) xenial; urgency=high
 
   * Updated packager to verify the downloaded archive against SHA signatures.
