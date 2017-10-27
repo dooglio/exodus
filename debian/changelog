@@ -1,3 +1,36 @@
+exodus (1.37.0-1) xenial; urgency=high
+
+  * Added District0x and Funfair.
+  * Exodus now pre-fills your own Exodus BCH wallet address when using the
+  * Exodus Bitcoin Cash claim function. This feature is perfect for users who
+    are on other wallets and have not claimed Bitcoin Cash yet.
+  * If you have your Bitcoin Cash trapped in another wallet here is a great
+    video by BTC Sessions on how to import your 12-word seed from other wallets
+    and claim your Bitcoin Cash!
+  * Exodus now has a new font for the navigation and portfolio section. This
+    font allows for larger numbers and text on all screen sizes. As our assets
+    and portfolios increase, readability (and being able to fit more items on
+    the screen) becomes important to customers holding a larger portfolio of assets.
+  * Long digit amounts (16 decimal places in ETH and ERC20) have been trimmed
+    down to 8 in the portfolio. This prevents ugly number wrapping on small
+    screens and window sizes, keeping the view clean and tidy.
+  * A rounding bug that caused a few users’ portfolio total values to only show
+    99% vs. 100% has been fixed. Although this was only a display bug, everyone
+    should now be at 100%!
+  * district0x (DNT) is here! Upgrade to version 1.37.0 to send and receive
+    district0x.
+  * FunFair (FUN) is here! Upgrade to version 1.37.0 to send and receive
+    FunFair.
+  * The send window has an updated look. Users can now quickly type in asset or
+    fiat values. There is also a new send all button. This window will soon
+    bring advanced sending options for power users.
+  * A few users reported older transactions not having pricing details in the
+    detail display drawer. This has been fixed.
+  * You can now exchange any asset for district0x (DNT).
+  * You can now exchange any asset for FunFair (FUN).
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Fri, 27 Oct 2017 08:31:58 -0700
+
 exodus (1.36.1-2) xenial; urgency=high
 
   * Updated packager to reflect a superior method of archiving against SHA
