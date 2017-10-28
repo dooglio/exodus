@@ -1,3 +1,9 @@
+exodus (1.37.1-1) xenial; urgency=high
+
+  * Fix export bug.
+
+ -- Doug Barbieri <doug@garibaldi>  Fri, 27 Oct 2017 19:58:33 -0700
+
 exodus (1.37.0-1) xenial; urgency=high
 
   * Added District0x and Funfair.
