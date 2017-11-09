@@ -1,3 +1,11 @@
+exodus (1.37.2-1) xenial; urgency=high
+
+  * Fixed incorrect balance issues for Bitcoin after rescanning.
+  * Bitpay insight was returning a wrong state, Exodus now double checks
+    and protects against this error. All Bitcoin balances after rescan are now correct.
+
+ -- Doug Barbieri <doug@garibaldi>  Thu, 09 Nov 2017 07:47:13 -0800
+
 exodus (1.37.1-2) xenial; urgency=high
 
   * Submodule was not downloaded before package build.
