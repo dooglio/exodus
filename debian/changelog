@@ -113,6 +113,26 @@ exodus (1.38.0-1) xenial; urgency=high
 
  -- R. Douglas Barbieri <doug@dooglio.net>  Thu, 09 Nov 2017 20:25:15 -0800
 
+exodus (1.37.2-1) xenial; urgency=high
+
+  * Fixed incorrect balance issues for Bitcoin after rescanning.
+  * Bitpay insight was returning a wrong state, Exodus now double checks
+    and protects against this error. All Bitcoin balances after rescan are now correct.
+
+ -- Doug Barbieri <doug@garibaldi>  Thu, 09 Nov 2017 07:47:13 -0800
+
+exodus (1.37.1-2) xenial; urgency=high
+
+  * Submodule was not downloaded before package build.
+
+ -- Doug Barbieri <doug@garibaldi>  Fri, 27 Oct 2017 20:05:05 -0700
+
+exodus (1.37.1-1) xenial; urgency=high
+
+  * Fix export bug.
+
+ -- Doug Barbieri <doug@garibaldi>  Fri, 27 Oct 2017 19:58:33 -0700
+
 exodus (1.37.0-1) xenial; urgency=high
 
   * Added District0x and Funfair.
