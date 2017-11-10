@@ -1,3 +1,118 @@
+exodus (1.38.0-1) xenial; urgency=high
+
+  * We got rid of the cobwebs and made big code optimizations across the
+    entire application. Exodus is now 20% (4MB) smaller overall!
+  * Adjusted Ethereum address failure messages to read more like a human and
+    less like an Ethereum robot.
+  * Notification banners now appear in the proper stacking order. Previously we
+    had a few users tell us, at small window sizes, notification banners were
+    not stacking correctly and the buttons were not working.
+  * More spacing adjustment have been made to the help section. Also button
+    sizes have been improved to contain longer items like email addresses. We
+    are looking at you support@exodus.io.
+  * Fixed the typo in the QTUM asset in the settings section.
+  * The upgrade button now marks your current version to allow for easier
+    upgrades and upgrade notifications.
+  * Fixed color borders in the backup section. Also made spacing adjustments to
+    the entire backup section for greater clarity.
+  * Adjusted the fiat amounts in the sidebar for users will large balances.
+  * Previously users with large balances were experiencing ugly wrapping text.
+  * Adjusted the sizing in the help section. There was some tiny text that was
+    hard to read in a few sections. This should be easier for everyone to
+    quickly browse and skim now.
+  * Portfolio
+  * Long digit amounts (16 decimal places in ETH and ERC20) have been trimmed
+    down to 8 in the portfolio. This prevents ugly number wrapping on small
+    screens and window sizes, keeping the view clean and tidy.
+  * A rounding bug that caused a few users’ portfolio total values to only show
+    99% vs. 100% has been fixed. Although this was only a display bug, everyone
+    should now be at 100%!
+  * Color adjustments have been made to further separate out Bitcoin from Bitcoin Cash.
+  * The design team was also busy optimizing the portfolio to make room for
+    everyone who wants to add 3 or 4 rows of assets on tiny laptop screens. They
+    stayed up late to tweak every pixel to make small size laptop users rejoice
+    on no extra scrolling.
+  * Exchange
+  * Exodus now checks for exchange pricing data twice as fast. This will help
+    everyone when exchanging assets to make sure with fast-moving markets they
+    can catch the best and latest price swings.
+    To increase transparency, exchange rate modifications now have the ability
+    to show the rate per asset on both sides of the pair. To toggle this view
+    click on the rate text under the exchange button.
+    In addition to Exodus being the only wallet to show fiat values in the
+    exchange this new rate toggle feature brings further transparency to view
+    all angles of asset exchanges inside Exodus. With fiat values, and now both
+    asset pairs toggling, Exodus is proud to be one of the most transparent
+    exchange experiences. Although Exodus exchanges will always be slightly
+    higher than a traditional exchange, or using ShapeShift directly, Exodus
+    funnels all revenue back into the core product and customer support team. We
+    are proud to maintain a free product and service funded by exchange volume.
+    As opposed to doing an ICO, Exodus continues to focus on product. We believe
+    over time as we continue to provide value for the digital asset ecosystem
+    exchange revenue will grow and continue to support the brand, company and
+    mission to help individuals control their future wealth!
+    Exodus now extends users a few seconds grace period to cancel an exchange in
+    progress. This brief buffer time will help users who accidentally started an
+    exchange and also help users to double check after clicking the exchange
+    button they are sure they want to complete an exchange.
+  * Wallet
+  * Exodus now supports exporting your Bitcoin Cash xpub. This feature is
+    accessible for advanced users in the Developer Menu.
+    Per feedback from the community we adjusted the spacing on the receive
+    address to make sure there was plenty of room around the address at all
+    window sizes.
+  * Fixed the border style consistency on the send-all button and QR code button
+    to match. Thanks to our eagle-eyed development community for catching these
+    pixels out of place!
+  * Exodus now triple checks Ethereum addresses, and all assets based on
+    Ethereum, [ Aragon (ANT), Augur (REP), Basic Attention Token (BAT), Civic
+    (CVC), District0x (DNT), EOS (EOS), FunFair (FUN), Gnosis (GNO), Golem
+    (GNT), OmiseGo (OMG) and Salt (SALT) ] that are scanned in with a QR code. We
+    have noticed there are some wallets not including checksum safety precautions
+    on Ethereum and Ethereum token addresses. If Exodus detects one of these
+    addresses it now warns you to check each character of the address to make sure
+    it is correct.
+  * Exodus now properly separates out fees from the sending amounts in the
+    advanced export transactions list. Although balances were always accurate this
+    gives all the accountants, and everyone wanting to know down to the satoshi,
+    how your wallet and transactions have built up over time. You can find
+    this feature in the developer menu under Developer > Assets > Asset >
+  * Export Transactions…
+  * Exodus further has optimized Bitcoin related display balances.
+    Further speed and reliability optimizations have been made to monitor
+    incoming Ethereum and all Ethereum token transactions.
+  * A link to the address you are sending to is now live in the send window
+    confirmation. This link allows you to click the address you are sending
+    to and view it on the blockchain before you send. This is yet another
+    way to make sure you are sending to a correct address. It also is a
+    great way to see and check address you have sent to previously.
+  * Exodus now properly sizes and prevents text wrap on long Ethereum
+    address vs. shorter Bitcoin addresses. Ethereum addresses are natively
+    longer and they need special care in the entire application.
+  * Send all on Ethereum sometimes left a few annoying trailing pieces of
+    ether in the wallet. We were as annoyed as you when we saw wallets with
+    a balance of 0.0000000000000001 ETH. We made sure to kick this to the
+    curb.
+  * Advanced users using your XPub in the dev console will now be able to
+    properly export addresses. (We realize this may be only about 10 people
+    but boy will these advanced nerds be happy about this)
+    We sent our design team into the send model to make some additional font
+    and spacing adjustments for clarity.
+  * Added colored addresses on the sending confirmation screen to further
+    give another visual cue of the asset you are sending too. These subtle
+    refinements help people not send Bitcoin to Bitcoin Cash and Ethereum
+  * Classic to Ethereum.
+  * Adjusted the center and alignment of the refresh icons and the
+    animations. These are the crazy little things our designers stay up late
+    at night to fix that no one will notice. ;)
+  * Updated the sizing on the transaction history details drawer. These were
+    previously small fonts that were harder to read. We redesigned the
+    drawers a bit to be able to bump the font sizes slightly. This resulted
+    in greater readability and consistency across all wallets and
+    transactions.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Thu, 09 Nov 2017 20:25:15 -0800
+
 exodus (1.37.0-1) xenial; urgency=high
 
   * Added District0x and Funfair.
