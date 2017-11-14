@@ -1,3 +1,11 @@
+exodus (1.38.1-1) xenial; urgency=high
+
+  * A few regions around the world continued to report Bitcoin balance issues
+    after rescanning. Exodus has put additional servers in place to safeguard
+    against this error.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Mon, 13 Nov 2017 16:37:53 -0800
+
 exodus (1.38.0-2) xenial; urgency=high
 
   * We got rid of the cobwebs and made big code optimizations across the
