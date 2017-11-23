@@ -1,3 +1,23 @@
+exodus (1.39.1-1) xenial; urgency=high
+
+  * Even more bitcoin fee optimizations - with rising Bitcoin prices every
+    little satoshi helps.
+  * Exchange: Exodus now has an exchange history view to browse all exchanges in one
+    central location.
+  * The new history drawer calculates your overall percentage change for each of
+    your Exodus exchanges.
+  * The new contact Exodus button in the history drawer to allow users to make
+    contact with Exodus and pre-fill exchange details so our support team can
+    help right away.
+  * Advanced: The developer menu now has a "Sweep for Bitcoin Cash" and "Sweep for
+    Bitcoin" for users who accidentally send BTC to BCH and vice versa.
+    Exodus now exports all empty change addresses in the private key export
+    files.
+  * Exodus no longer allows dragging of URLs or items into the window.
+  * Exodus can now import uncompressed WIF formatted addresses.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Thu, 23 Nov 2017 09:33:38 -0800
+
 exodus (1.38.1-1) xenial; urgency=high
 
   * A few regions around the world continued to report Bitcoin balance issues
