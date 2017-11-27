@@ -1,3 +1,23 @@
+exodus (1.39.3-1) xenial; urgency=high
+
+  * Wallet: Optimized Bitcoin Cash transactions to lower all fees.
+  * Updated to faster block explorers for both Dash and Litecoin.
+  * Exchange: A handful of users were reporting the Exodus UI becoming unresponsive when
+    clicking the exchange button. This has been fixed.
+  * Fixed the stacking order (it was always on top) of the Ethereum warning
+    banner in the exchange.
+  * Temporarily removed percentages from the Order History page until we are
+    sure the numbers are 100% accurate.
+  * Developer: Added a 1-click option in the Developer menu ( Developer > Export Safe
+    Report Data) to easily package only safe Exodus report data for diagnostic by the
+    Exodus support team. This file packages up only your safe data (No private keys are
+    included) and allows the Exodus team to help with your specific problem without having
+    access to your secure data or private keys. This diagnostic log data is safe and helps our
+    support team fix very unique or hard problems in case you run into any
+    trouble our team can not reproduce.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Mon, 27 Nov 2017 08:35:02 -0800
+
 exodus (1.39.1-1) xenial; urgency=high
 
   * Even more bitcoin fee optimizations - with rising Bitcoin prices every
