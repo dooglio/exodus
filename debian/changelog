@@ -1,3 +1,9 @@
+exodus (1.39.4-1) xenial; urgency=high
+
+  * Additional fixes for users who had legacy QTUM orders not showing up in the Exchange History drawer.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Mon, 27 Nov 2017 16:27:41 -0800
+
 exodus (1.39.3-1) xenial; urgency=high
 
   * Wallet: Optimized Bitcoin Cash transactions to lower all fees.
