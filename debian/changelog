@@ -1,3 +1,12 @@
+exodus (1.39.5-1) xenial; urgency=high
+
+  * General: Support email buttons now open the default mail client and pre-fill the Exodus version number again.
+  * Exchange: A fix has been put in place for customers reporting problems exchanging Ethereum Classic.
+  * Wallet: A fix has been put in place for customers reporting delays sending Ethereum Classic.
+    No more annoying timeouts, send and exchange ETC to your hearts content!
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Fri, 01 Dec 2017 15:28:08 -0800
+
 exodus (1.39.4-1) xenial; urgency=high
 
   * Additional fixes for users who had legacy QTUM orders not showing up in the Exchange History drawer.
