@@ -1,3 +1,23 @@
+exodus (1.40.0-1) xenial; urgency=high
+
+  * Wallet: Exodus now supports sending to Copay-formatted bitcoin cash addresses.
+  * Optimized Dash sending fees by over 4X!
+  * Exchange: All / Half / Min buttons always show up even if you don't have the minimum
+    to exchange. Previously these buttons only were visible when you had the
+    required minimum amount of assets to exchange.
+  * Better, more explicit, natural language exchange error messages.
+  * More reliable exchange progress tracking in times of network congestion.
+  * Advanced: Behind-the-scenes automatic fallbacks are now in place along with and
+    automatic configuration for down network resources.
+  * More reliable fee monitoring + faster fee optimizations, across a number of
+    assets, to help transactions stay on top of the rapidly growing network load.
+  * Optimized Ethereum and Ethereum token (ERC20) network load across all
+    resources.
+  * Live Ethereum monitoring resources to be sure Ethereum and Ethereum tokens
+    (ERC20) are delivered quickly in times of network saturation.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Fri, 08 Dec 2017 09:01:36 -0800
+
 exodus (1.39.5-1) xenial; urgency=high
 
   * General: Support email buttons now open the default mail client and pre-fill the Exodus version number again.
