@@ -1,3 +1,17 @@
+exodus (1.41.0-1) xenial; urgency=high
+
+  * Wallet: Exodus now has additional safety checks for file integrity on launch. If any
+    type of file corruption is detected, Exodus attempts to auto-repair the
+    files. This helps users who experience hard drive corruption issues or
+    unexpected power failures wile using Exodus.
+  * Exodus notifies you if you are sending all your Ethereum and have
+    Ethereum-powered assets (sometimes called ERC20).
+  * Optimized Ethereum and Ethereum Classic gas prices.
+  * Exchange: Improved exchange tracking for delayed exchanges caused by overloaded
+    network traffic
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Fri, 22 Dec 2017 09:19:27 -0800
+
 exodus (1.40.0-1) xenial; urgency=high
 
   * Wallet: Exodus now supports sending to Copay-formatted bitcoin cash addresses.
