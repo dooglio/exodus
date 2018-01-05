@@ -1,3 +1,21 @@
+exodus (1.42.0-1) xenial; urgency=high
+
+  * Improved rescan reliability in the case of overloaded servers. Exodus now
+    attempts server connections, up to 5 times, before reporting an error. This
+    extra buffer helps servers peaking with very high traffic.
+  * Updated asset descriptions, including future beta assets, in the settings
+    section.
+  * When sweeping a paper wallet from the advanced developer menu, because funds
+    are moved on-chain, Exodus now previews the required transaction fee and
+    prompts for confirmation.
+  * The Bitcoin Cash logo has been changed to green from orange. This matches
+    design choices made at Coinbase and seems to help users from mistaking
+    Bitcoin Cash from Bitcoin when sending and receiving.
+  * Printing addresses, from the receive dialog, now include the asset name as
+    well as a general cleanup of extra items causing confusion.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Thu, 04 Jan 2018 21:28:00 -0800
+
 exodus (1.41.0-1) xenial; urgency=high
 
   * Wallet: Exodus now has additional safety checks for file integrity on launch. If any
