@@ -1,3 +1,13 @@
+exodus (1.43.1-1) xenial; urgency=high
+
+  * General: Exodus now clears any unnecessary whitespace from backup links. Previously if a user had hidden trailing whitespace the password would be incorrect.
+  * Wallet: Users can now claim Bitcoin Gold (BTG). View step-by-step instructions.
+  * Bitcoin Gold (BTG), Status (SNT), 0x (ZRX), Bancor (BNT), iExec RLC (RLC), Edgeless (EDG), Wings (WINGS), FirstBlood (1ST), WeTrust (TRST), Matchpool (GUP) and Numeraire (NMR) are here.
+  * Upgrade to version 1.43.0 to send, receive and exchange new assets.
+  * Developer: The developer menu now has a "Sweep for Ethereum" and "Sweep for Ethereum Classic" for users who accidentally send ETH to ETC and vice versa.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Thu, 18 Jan 2018 22:18:33 -0800
+
 exodus (1.42.0-1) xenial; urgency=high
 
   * Improved rescan reliability in the case of overloaded servers. Exodus now
