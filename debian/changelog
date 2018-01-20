@@ -1,3 +1,11 @@
+exodus (1.43.2-1) xenial; urgency=high
+
+  * Pricing feed for Bitcoin Gold (BTG) has been corrected for those using CoinMarketCap as a pricing feed.
+    Find out more about pricing feeds.
+  * Lowered Dash fees by 10X. (Changed from 0.0001 DASH per kB to 0.00001 Dash per kB).
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Sat, 20 Jan 2018 13:23:32 -0800
+
 exodus (1.43.1-1) xenial; urgency=high
 
   * General: Exodus now clears any unnecessary whitespace from backup links. Previously if a user had hidden trailing whitespace the password would be incorrect.
