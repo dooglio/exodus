@@ -5,6 +5,7 @@
 
 /usr/share/exodus/exodus-installer install @EXODUS_VERSION@
 
+/usr/bin/update-desktop-database
 
 #DEBHELPER#
 

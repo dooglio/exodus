@@ -8,6 +8,8 @@ then
     rm -f $HOME/Downloads/exodus-linux-x64-@EXODUS_VERSION@.zip
 fi
 
+/usr/bin/update-desktop-database
+
 #DEBHELPER#
 
 # vim: ts=4 sw=4 et

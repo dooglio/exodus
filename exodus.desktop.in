@@ -1,11 +1,12 @@
 [Desktop Entry]
-Encoding=UTF-8
-Version=1.0
 Type=Application
-Name=Exodus @EXODUS_VERSION@
+Version=@EXODUS_VERSION@
+Name=Exodus
+Comment=Secure, manage, and trade blockchain assets.
 Icon=exodus.png
-Exec=/opt/exodus/Exodus
-StartupNotify=false
-StartupWMClass=Exodus
-OnlyShowIn=Unity;
-X-UnityGenerated=true
+Exec=/opt/exodus/Exodus %U
+Path=/opt/exodus
+Terminal=false
+MimeType=x-scheme-handler/exodus;
+Categories=Utility;Network;Finance;
+Encoding=UTF-8
