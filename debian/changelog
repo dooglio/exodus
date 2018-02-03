@@ -1,3 +1,17 @@
+exodus (1.44.0-1) xenial; urgency=high
+
+  * Wallet: Further optimized Bitcoin fee calculations to help when the network is less congested.
+  * Further optimized Ethereum transactions for speed and reliability.
+  * Added Ethereum token transaction fees on advanced transactions export spreadsheet.
+  * Fixed small display title messages in private key sweeping.
+  * Fixed Bitcoin Gold private key import.
+  * Import encrypted Bitcoin paper wallets.
+  * Developer: Optimized websockets connection to not allow for polling. This will reduce all
+  * server overhead on busy networks and connections.
+  * Updated all links to Knowledge Base to use HTTPS.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Fri, 02 Feb 2018 15:57:41 -0800
+
 exodus (1.43.4-2) xenial; urgency=high
 
   * Updated the desktop file to properly register `exodus:` protocol.
