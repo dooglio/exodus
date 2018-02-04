@@ -1,3 +1,9 @@
+exodus (1.44.1-1) xenial; urgency=high
+
+  * Fixed Bitcoin Gold claim regression.
+
+ -- R. Douglas Barbieri <doug@dooglio.net>  Sun, 04 Feb 2018 11:45:32 -0800
+
 exodus (1.44.0-1) xenial; urgency=high
 
   * Wallet: Further optimized Bitcoin fee calculations to help when the network is less congested.
