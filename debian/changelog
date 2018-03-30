@@ -1,6 +1,21 @@
-exodus (1.48.0-1) xenial; urgency=high
+exodus (1.48.0-2) xenial; urgency=high
 
-  * Exodus added a 1-click-easy way to register your EOS address and tokens.
+  * General: The “reveal password” icon now opens and shuts it’s one good eye depending
+    on whether you’d like to view or hide your secret password.
+  * Remember when restoring with your 12 word phrase meant losing all of your
+    exchange history? Fear not! This has been fixed and Exodus from here on out
+    keeps your history for you, no matter how you restore your wallet, all the
+    while allowing you to control your private keys.
+  * Exchange: With a heavy heart, we must announce that First Blood (1ST) will not be
+    returning to the exchange platform in Exodus. This is due to being delisted
+    from major exchanges like Bittrex. Firstblood will now live in the Ethereum
+    Assets tab of your wallet.
+  * Wallet: Exodus added a 1-click-easy way to register your EOS address and tokens.
+    Find out more here: https://support.exodus.io/article/690-how-do-i-register-my-eos-address-inside-exodus
+  * Funfair has a new logo in your wallet!
+  * Developer: Upgraded to Electron v1.7.13 - If you know what this
+    smarty-pants-javascript-stuff means take a look at our developer careers and
+    get in touch!
 
  -- Doug Barbieri <doug@exodus.io>  Thu, 29 Mar 2018 22:09:47 -0700
 
