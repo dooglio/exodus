@@ -1,3 +1,9 @@
+exodus (1.48.0-1) xenial; urgency=high
+
+  * Exodus added a 1-click-easy way to register your EOS address and tokens.
+
+ -- Doug Barbieri <doug@exodus.io>  Thu, 29 Mar 2018 22:09:47 -0700
+
 exodus (1.47.1-1) xenial; urgency=high
 
   * Portfolio: Fixed display issue that could cause the portfolio donut chart to be
