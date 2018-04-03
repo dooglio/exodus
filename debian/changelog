@@ -1,3 +1,10 @@
+exodus (1.48.1-1) xenial; urgency=high
+
+  * General: Some EOS registration links have been corrected.
+  * Exchange: The swap icon would fail to switch asset units in specific cases.
+
+ -- Doug Barbieri <doug@exodus.io>  Tue, 03 Apr 2018 12:12:33 -0700
+
 exodus (1.48.0-2) xenial; urgency=high
 
   * General: The “reveal password” icon now opens and shuts it’s one good eye depending
