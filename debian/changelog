@@ -1,3 +1,27 @@
+exodus (1.49.0-1) xenial; urgency=high
+
+  * General: Optimized app startup time with portfolios holding a large number of
+    diversified assets.
+  * Wallet: You can now send and receive Digibyte. To add Digibyte to your portfolio
+    visit the Settings section then click Assets to turn it on.
+  * The Dai stablecoin has been added to the Ethereum assets. Users can now send
+    and receive Dai. To add Dai to your portfolio visit the Settings section
+    then click Assets, scroll down to the bottom, then click ‘Ethereum Assets’
+    to turn it on.
+  * Optimized Bitcoin fees even further to lower dust limits. Hurray for lower
+    transaction fees!
+  * Fixed connection failed banners on slower computers and network connections.
+  * Exchange: Digibyte has been added to the exchange. You can now exchange any Exodus
+    asset for Digibyte to further diversify your portfolio. To exchange for
+    Digibyte be sure to first visit the Settings section then click Assets to
+    turn it on.
+  * Backup: For extra safety we now remind customers who restore the wallet using 12
+    words to set a strong password. In addition we now have a knowledge base
+    article detailing password protection when restoring using your 12-word
+    phrase.
+
+ -- Doug Barbieri <doug@exodus.io>  Fri, 13 Apr 2018 22:02:41 -0700
+
 exodus (1.48.1-1) xenial; urgency=high
 
   * General: Some EOS registration links have been corrected.
