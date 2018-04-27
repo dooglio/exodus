@@ -1,3 +1,23 @@
+exodus (1.50.0-1) xenial; urgency=high
+
+  * Version 1.50.0, in-depth, extended release notes are posted on our Medium
+    blog: https://medium.com/exodus-movement/exodus-adds-zcash-1d3ff7b1c0e
+  * Portfolio: You can now hover over the donut in the Portfolio to expand and
+    visualize individual assets.
+  * Assets with a 0 balance are now properly sorted in the Portfolio view.  Wallet
+  * You can now send and receive Zcash. To add Zcash to your portfolio visit
+    the Settings section then click Assets to turn it on.
+  * Exchange: Zcash has been added to the exchange. You can now exchange any
+    Exodus asset for Zcash to further diversify your portfolio. To exchange for
+    Zcash be sure to first visit the Settings section then click Assets to turn
+    it on.
+  * Advanced: Using the advanced Developer Menu, all types of Digibyte private
+    keys are now supported for importing.
+  * Using the advanced Developer Menu, you can now export your EOS private key
+    for future use on the upcoming for EOS mainnet. 
+
+ -- Doug Barbieri <doug@exodus.io>  Thu, 26 Apr 2018 20:16:19 -0700
+
 exodus (1.49.0-1) xenial; urgency=high
 
   * General: Optimized app startup time with portfolios holding a large number of
