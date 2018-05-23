@@ -1,3 +1,27 @@
+exodus (1.51.4-1) xenial; urgency=high
+
+  * Version 1.51.0, in-depth, extended release notes are posted on our Medium
+    blog: https://medium.com/exodus-movement/exodus-1-51-0-your-feature-request-is-our-command-1cc61a8590de
+  * Portfolio: You can now click assets in the portfolio to quick-link to individual
+    wallets. The portfolio now correctly reports on fractional values below 1%.
+  * Wallet: Exodus now auto-corrects if connection problems cause an error in the middle
+    of refreshing your wallet. Restating on this error is now relic of the past
+    as of version 1.51.0.
+  * Exchange: EOS, BAT and EDG are now back for exchange for all customers living outside
+    the US.
+  * Certain conditions would cause the asset units to be incorrect.
+  * Settings: A search bar has been added to the settings section.
+  * Misc: By popular request the toggle password visibility icons on the login screen
+    have been switched.
+  * Security: Our security team has been hard at work behind the scenes and discovered
+    more safety and security precautions to protect your assets. A new version
+    of Exodus has been released immediately ( Version 1.51.2 ) with fixes and
+    security upgrades in place. This security patch was focused on protocols
+    used in Exodus dependencies. All users need to upgrade immediately.
+  * General: Popup reminder to register EOS.
+
+ -- Doug Barbieri <doug@exodus.io>  Wed, 23 May 2018 16:47:49 -0700
+
 exodus (1.50.0-1) xenial; urgency=high
 
   * Version 1.50.0, in-depth, extended release notes are posted on our Medium
