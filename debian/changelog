@@ -1,3 +1,17 @@
+exodus (1.52.0-1) xenial; urgency=high
+
+  * Version 1.52.0, in-depth, extended release notes are posted on our
+    Medium blog: https://medium.com/exodus-movement/exodus-1-52-0-in-the-eye-of-the-storm-b36e4d674ffa
+  * Wallet: Improved QR code scanner.
+  * Improved networking code to save on bandwith when the wallet is
+    open for long periods of time.
+  * Zcash is now enabled by default.
+  * Developer: Upgraded to Electron v1.8.6 - If you know what this
+    smarty-pants-javascript-stuff means take a look at our
+    developer careers and get in touch!
+
+ -- Doug Barbieri <doug@exodus.io>  Fri, 25 May 2018 07:33:10 -0700
+
 exodus (1.51.4-1) xenial; urgency=high
 
   * Version 1.51.0, in-depth, extended release notes are posted on our Medium
