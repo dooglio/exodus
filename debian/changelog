@@ -1,3 +1,16 @@
+exodus (1.53.0-1) xenial; urgency=high
+
+  * Version 1.53.0, in-depth, extended release notes are posted on our Medium
+    blog: https://medium.com/exodus-movement/weve-sharpened-our-axes-this-week-no-really-the-devs-have-worked-their-axes-off-88fa9d01ea7d
+  * Wallet: Updated the Bitcoin Cash claim function to prefill the new q address.
+  * Exodus warns if you accidentally try to send Bitcoin Cash to a Bitcoin address.
+  * Dash has a fancy new logo in your wallet!
+  * Settings: Fixed a scrolling bug that would cause blank pages on certain configurations
+    and screen sizes.
+  * Help: Added a one-click EOS registration check.
+
+ -- Doug Barbieri <doug@exodus.io>  Fri, 08 Jun 2018 08:47:41 -0700
+
 exodus (1.52.0-1) xenial; urgency=high
 
   * Version 1.52.0, in-depth, extended release notes are posted on our
