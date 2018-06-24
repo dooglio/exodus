@@ -1,3 +1,9 @@
+exodus (1.54.1-1) xenial; urgency=high
+
+  * Exchange: fixed a rare edge case display issue showing a blank screen in the exchange section.
+
+ -- Doug Barbieri <doug@exodus.io>  Sat, 23 Jun 2018 17:43:14 -0700
+
 exodus (1.54.0-1) xenial; urgency=high
 
   * Version 1.54.0, in-depth, extended release notes are posted on our Medium
